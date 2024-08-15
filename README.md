@@ -18,3 +18,5 @@ composer require php-flasher/flasher-toastr-symfony
 
 if errors occur for toastr go to toaster|phpFlasher website
 if errors occur for sweet alert go to sweetalert website
+
+finally just replace the folders in the new laravel project with the folders in this repository 
