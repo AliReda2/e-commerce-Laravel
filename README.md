@@ -1,4 +1,7 @@
-First install Composer
+First install Composer from official website
+
+(to use the cmd =>go to the project's folder => replace the path with cmd => this will open cmd with path to your folder directly or open cmd the type cd then path to your project)
+
 (start XAMPP apache and mysql) =>
 Second go to cmd
 in cmd write: 
@@ -25,6 +28,7 @@ composer require cviebrock/eloquent-sluggable
 
 
 
-finally just replace the folders in the new laravel project with the folders in this repository 
+finally just replace the folders in the new laravel project with the folders in this repository and import the database to your phpMyAdmin
+
 to open the website write in cmd:
 php artisan serve (this will give url of the local host )
