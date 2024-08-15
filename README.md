@@ -18,5 +18,13 @@ composer require php-flasher/flasher-toastr-symfony
 
 if errors occur for toastr go to toaster|phpFlasher website
 if errors occur for sweet alert go to sweetalert website
+if errors occur for sluggable put theses in cmd:
+php artisan make:migration add_slug_column_to_products_table
+php artisan migrate
+composer require cviebrock/eloquent-sluggable
+
+
 
 finally just replace the folders in the new laravel project with the folders in this repository 
+to open the website write in cmd:
+php artisan serve (this will give url of the local host )
